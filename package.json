@@ -1,0 +1,22 @@
+{
+  "name": "uoft-prereq-planner",
+  "version": "1.0.0",
+  "description": "For UofT Courses to aid students in course and program selection.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taodario/uoft-prereq-planner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taodario/uoft-prereq-planner/issues"
+  },
+  "homepage": "https://github.com/taodario/uoft-prereq-planner#readme",
+  "dependencies": {
+    "mongodb": "^5.6.0"
+  }
+}
