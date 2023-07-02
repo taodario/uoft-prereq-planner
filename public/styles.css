@@ -1,0 +1,9 @@
+#courseName {
+    width: 70px;
+}
+
+#courseForm button{
+    padding: 1px 5px;
+    background-color: #2950A3;
+    color: white;
+}
