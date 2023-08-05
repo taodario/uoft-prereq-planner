@@ -8,7 +8,7 @@ const ejs = require('ejs');
 app.set('view engine', 'ejs');
 
 // express stuff
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
 app.use(express.urlencoded({ extended: true })); // Add this line to parse the form data
 
 app.get('/', (req, res) => {
